@@ -1,14 +1,28 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { db } from "./firebase";
+import { collection, getDocs } from "firebase/firestore";
 
 const GalleryPage = () => {
-  const images = [
-    { src: "img/classes-1.jpg", alt: "Gallery Image 1", title: "Gallery Image 1" },
-    { src: "img/classes-2.jpg", alt: "Gallery Image 2", title: "Gallery Image 2" },
-    { src: "img/classes-3.jpg", alt: "Gallery Image 3", title: "Gallery Image 3" },
-    { src: "img/classes-4.jpg", alt: "Gallery Image 4", title: "Gallery Image 4" },
-    { src: "img/classes-5.jpg", alt: "Gallery Image 5", title: "Gallery Image 5" },
-    { src: "img/classes-6.jpg", alt: "Gallery Image 6", title: "Gallery Image 6" }
-  ];
+  const [images, setImages] = useState([]);
+
+  // Fetch image URLs from Firestore
+  useEffect(() => {
+    const fetchImages = async () => {
+      try {
+        const imageCollectionRef = collection(db, "gallery"); // Firestore collection
+        const imageSnapshot = await getDocs(imageCollectionRef);
+        const imageList = imageSnapshot.docs.map((doc) => ({
+          id: doc.id,
+          ...doc.data(),
+        }));
+        setImages(imageList); // Set the fetched images from Firestore as objects
+      } catch (error) {
+        console.error("Error fetching images from Firestore:", error);
+      }
+    };
+
+    fetchImages();
+  }, []);
 
   return (
     <>
@@ -32,12 +46,14 @@ const GalleryPage = () => {
         <div className="container">
           <div className="row">
             {images.map((image, index) => (
-              <div className="col-lg-4 col-md-6 mb-4 wow fadeIn" data-wow-delay={`${0.1 * (index + 1)}s`} key={index}>
+              <div className="col-lg-4 col-md-6 mb-4 wow fadeIn" data-wow-delay={`${0.1 * (index + 1)}s`} key={image.id}>
                 <div className="position-relative">
-                  <img className="img-fluid w-100 rounded" src={image.src} alt={image.alt} style={{ objectFit: "cover", height: "300px" }} />
-                  {/* <div className="position-absolute top-50 start-50 translate-middle d-flex align-items-center justify-content-center h-100 w-100 bg-dark bg-opacity-50 rounded">
-                    <h5 className="text-white text-center">{image.title}</h5>
-                  </div> */}
+                  <img
+                    className="img-fluid w-100 rounded"
+                    src={image.imageUrl}
+                    alt={image.title || `Gallery Image ${index + 1}`}
+                    style={{ objectFit: "cover", height: "300px" }}
+                  />
                 </div>
               </div>
             ))}
