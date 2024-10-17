@@ -31,7 +31,7 @@ function Appointment() {
                   <div className="col-sm-6">
                     <div className="form-floating">
                       <input type="text" className="form-control border-0" id="gname" placeholder="Gurdian Name" />
-                      <label htmlFor="gname">Gurdian Name</label>
+                      <label htmlFor="gname">Guardian Name</label>
                     </div>
                   </div>
                   <div className="col-sm-6">

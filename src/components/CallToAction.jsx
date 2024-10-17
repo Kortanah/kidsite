@@ -7,12 +7,12 @@ function CallToAction() {
   {/* Page Header End */}
   <div className="container-xxl py-5 page-header position-relative mb-5">
     <div className="container py-5">
-      <h1 className="display-2 text-white animated slideInDown mb-4">Become A Teachers</h1>
+      <h1 className="display-2 text-white animated slideInDown mb-4">Become A Teacher</h1>
       <nav aria-label="breadcrumb animated slideInDown">
         <ol className="breadcrumb">
           <li className="breadcrumb-item"><a href="/">Home</a></li>
           <li className="breadcrumb-item"><a href="/">Pages</a></li>
-          <li className="breadcrumb-item text-white active" aria-current="page">Become A Teachers</li>
+          <li className="breadcrumb-item text-white active" aria-current="page">Become A Teacher</li>
         </ol>
       </nav>
     </div>
@@ -31,8 +31,9 @@ function CallToAction() {
           <div className="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
             <div className="h-100 d-flex flex-column justify-content-center p-5">
               <h1 className="mb-4">Become A Teacher</h1>
-              <p className="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos.
-                Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
+              <p className="mb-4">Are you passionate about shaping young minds and making a lasting impact? Join our team at Creme de la Creme, where we believe in nurturing both children and educators. 
+                As a teacher with us, you’ll have the opportunity to inspire curiosity, creativity, and growth in a supportive and enriching environment. 
+                Start your rewarding career in early childhood education with us today!
               </p>
               <a className="btn btn-primary py-3 px-5" href>Get Started Now<i className="fa fa-arrow-right ms-2" /></a>
             </div>
