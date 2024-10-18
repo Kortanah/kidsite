@@ -12,7 +12,7 @@ function Home() {
     <div className="container">
       <div className="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style={{maxWidth: 600}}>
         <h1 className="mb-3">School Facilities</h1>
-        <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
+        <p>At Creme de la Creme, we pride ourselves on our safe, welcoming, and well-equipped facilities. Our classrooms are designed to inspire creativity and collaboration, while our outdoor play areas provide ample space for exploration and physical activity. </p>
       </div>
       <div className="row g-4">
         <div className="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -24,7 +24,7 @@ function Home() {
             </div>
             <div className="facility-text bg-primary">
               <h3 className="text-primary mb-3">School Bus</h3>
-              <p className="mb-0">Eirmod sed ipsum dolor sit rebum magna erat lorem kasd vero ipsum sit</p>
+              <p className="mb-0">Our safe school bus service ensures comfortable travel to and from Creme de la Creme.</p>
             </div>
           </div>
         </div>
@@ -37,7 +37,7 @@ function Home() {
             </div>
             <div className="facility-text bg-success">
               <h3 className="text-success mb-3">Playground</h3>
-              <p className="mb-0">Eirmod sed ipsum dolor sit rebum magna erat lorem kasd vero ipsum sit</p>
+              <p className="mb-0">The vibrant playground encourages outdoor fun and physical activity.</p>
             </div>
           </div>
         </div>
@@ -49,8 +49,8 @@ function Home() {
               <span className="bg-warning" />
             </div>
             <div className="facility-text bg-warning">
-              <h3 className="text-warning mb-3">Healt=" "hy Canteen</h3>
-              <p className="mb-0">Eirmod sed ipsum dolor sit rebum magna erat lorem kasd vero ipsum sit</p>
+              <h3 className="text-warning mb-3">Healthy Canteen</h3>                            
+              <p className="mb-0">Our healthy canteen offers nutritious meals and snacks for growing children.</p>
             </div>
           </div>
         </div>
@@ -63,7 +63,7 @@ function Home() {
             </div>
             <div className="facility-text bg-info">
               <h3 className="text-info mb-3">Positive Learning</h3>
-              <p className="mb-0">Eirmod sed ipsum dolor sit rebum magna erat lorem kasd vero ipsum sit</p>
+              <p className="mb-0">We create a positive learning environment that inspires curiosity and creativity.</p>
             </div>
           </div>
         </div>
@@ -77,8 +77,8 @@ function Home() {
       <div className="row g-5 align-items-center">
         <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
           <h1 className="mb-4">Learn More About Our Work And Our Cultural Activities</h1>
-          <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-          <p className="mb-4">Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam rebum amet diam ipsum. Clita clita labore, dolor duo nonumy clita sit at, sed sit sanctus dolor eos, ipsum labore duo duo sit no sea diam. Et dolor et kasd ea. Eirmod diam at dolor est vero nonumy magna.</p>
+          <p>We understand that early childhood is a critical time for development, and our play-based learning approach supports not just academic growth but also emotional and social well-being. This holistic approach ensures that each child feels valued, confident, and ready for the future.</p>
+          <p className="mb-4">Join us at Creme de la Creme, where we are passionate about guiding your child through the most important developmental years with care, creativity, and excellence.</p>
           <div className="row g-4 align-items-center">
             <div className="col-sm-6">
               <a className="btn btn-primary rounded-pill py-3 px-5" href>Read More</a>
@@ -124,8 +124,7 @@ function Home() {
           <div className="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
             <div className="h-100 d-flex flex-column justify-content-center p-5">
               <h1 className="mb-4">Become A Teacher</h1>
-              <p className="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos.
-                Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
+              <p className="mb-4">Are you passionate about shaping young minds and making a lasting impact? Join our team at [Kindergarten Name], where we believe in nurturing both children and educators.
               </p>
               <a className="btn btn-primary py-3 px-5" href>Get Started Now<i className="fa fa-arrow-right ms-2" /></a>
             </div>
@@ -140,7 +139,7 @@ function Home() {
     <div className="container">
       <div className="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style={{maxWidth: 600}}>
         <h1 className="mb-3">School Classes</h1>
-        <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
+        <p>At Creme de la Creme, we offer a range of engaging classes designed to spark curiosity and creativity in every child. Our tailored curriculum ensures a fun, hands-on learning experience that meets the needs of each age group.</p>
       </div>
       <div className="row g-4">
         <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -400,13 +399,13 @@ function Home() {
                   <div className="col-sm-6">
                     <div className="form-floating">
                       <input type="text" className="form-control border-0" id="gname" placeholder="Gurdian Name" />
-                      <label htmlFor="gname">Gurdian Name</label>
+                      <label htmlFor="gname">Guardian Name</label>
                     </div>
                   </div>
                   <div className="col-sm-6">
                     <div className="form-floating">
                       <input type="email" className="form-control border-0" id="gmail" placeholder="Gurdian Email" />
-                      <label htmlFor="gmail">Gurdian Email</label>
+                      <label htmlFor="gmail">Guardian Email</label>
                     </div>
                   </div>
                   <div className="col-sm-6">
@@ -449,8 +448,7 @@ function Home() {
     <div className="container">
       <div className="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style={{maxWidth: 600}}>
         <h1 className="mb-3">Popular Teachers</h1>
-        <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit
-          eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
+        <p>Meet the heart of Creme de la Creme—our dedicated and talented teachers! Known for their creativity, warmth, and expertise, our teachers make learning fun and engaging for every child..</p>
       </div>
       <div className="row g-4">
         <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -503,8 +501,8 @@ function Home() {
   <div className="container-xxl py-5">
     <div className="container">
       <div className="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style={{maxWidth: 600}}>
-        <h1 className="mb-3">Our Clients Say!</h1>
-        <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
+        <h1 className="mb-3">What Our Parents Say!</h1>
+        <p>Parents love Creme de la Creme for our caring staff and the positive impact we have on their children’s growth and learning.</p>
       </div>
       <div className="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
         <div className="testimonial-item bg-light rounded p-5">

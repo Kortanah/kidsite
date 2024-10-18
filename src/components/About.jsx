@@ -24,8 +24,14 @@ function About() {
       <div className="row g-5 align-items-center">
         <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
           <h1 className="mb-4">Learn More About Our Work And Our Cultural Activities</h1>
-          <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-          <p className="mb-4">Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam rebum amet diam ipsum. Clita clita labore, dolor duo nonumy clita sit at, sed sit sanctus dolor eos, ipsum labore duo duo sit no sea diam. Et dolor et kasd ea. Eirmod diam at dolor est vero nonumy magna.</p>
+          <p>
+          At Creme de la Creme, we believe in creating a warm and nurturing environment where every child can explore, learn, and grow. With years of experience in the field of early childhood education, we are proud to be leaders in providing exceptional care and learning experiences for young children. 
+          Our team of highly trained educators combines passion with expertise to ensure that every child thrives.
+          </p>
+          <p className="mb-4">We understand that early childhood is a critical time for development, and our play-based learning approach supports not just academic growth but also emotional and social well-being.
+             This holistic approach ensures that each child feels valued, confident, and ready for the future.
+          </p>
+          
           <div className="row g-4 align-items-center">
             <div className="col-sm-6">
               <a className="btn btn-primary rounded-pill py-3 px-5" href>Read More</a>
@@ -71,8 +77,8 @@ function About() {
           <div className="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
             <div className="h-100 d-flex flex-column justify-content-center p-5">
               <h1 className="mb-4">Become A Teacher</h1>
-              <p className="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos.
-                Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
+              <p className="mb-4">Are you passionate about shaping young minds and making a lasting impact? Join our team at Creme de la Creme, where we believe in nurturing both children and educators. As a teacher with us, you’ll have the opportunity to inspire curiosity, creativity, and growth in a supportive and enriching environment. 
+                Start your rewarding career in early childhood education with us today!
               </p>
               <a className="btn btn-primary py-3 px-5" href>Get Started Now<i className="fa fa-arrow-right ms-2" /></a>
             </div>
@@ -87,8 +93,7 @@ function About() {
     <div className="container">
       <div className="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style={{maxWidth: 600}}>
         <h1 className="mb-3">Popular Teachers</h1>
-        <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit
-          eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
+        <p>Meet the heart of Creme de la Creme—our dedicated and talented teachers! Known for their creativity, warmth, and expertise, our teachers make learning fun and engaging for every child.</p>
       </div>
       <div className="row g-4">
         <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">

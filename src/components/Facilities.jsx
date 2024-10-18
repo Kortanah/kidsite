@@ -23,7 +23,7 @@ function Facilities() {
     <div className="container">
       <div className="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style={{maxWidth: 600}}>
         <h1 className="mb-3">School Facilities</h1>
-        <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
+        <p>At Creme de la Creme, we pride ourselves on our safe, welcoming, and well-equipped facilities. Our classrooms are designed to inspire creativity and collaboration, while our outdoor play areas provide ample space for exploration and physical activity.</p>
       </div>
       <div className="row g-4">
         <div className="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -35,7 +35,7 @@ function Facilities() {
             </div>
             <div className="facility-text bg-primary">
               <h3 className="text-primary mb-3">School Bus</h3>
-              <p className="mb-0">Eirmod sed ipsum dolor sit rebum magna erat lorem kasd vero ipsum sit</p>
+              <p className="mb-0">Our safe school bus service ensures comfortable travel to and from Creme de la Creme.</p>
             </div>
           </div>
         </div>
@@ -48,7 +48,7 @@ function Facilities() {
             </div>
             <div className="facility-text bg-success">
               <h3 className="text-success mb-3">Playground</h3>
-              <p className="mb-0">Eirmod sed ipsum dolor sit rebum magna erat lorem kasd vero ipsum sit</p>
+              <p className="mb-0">The vibrant playground encourages outdoor fun and physical activity.</p>
             </div>
           </div>
         </div>
@@ -61,7 +61,7 @@ function Facilities() {
             </div>
             <div className="facility-text bg-warning">
               <h3 className="text-warning mb-3">Healthy Canteen</h3>
-              <p className="mb-0">Eirmod sed ipsum dolor sit rebum magna erat lorem kasd vero ipsum sit</p>
+              <p className="mb-0">Our healthy canteen offers nutritious meals and snacks for growing children.</p>
             </div>
           </div>
         </div>
@@ -74,7 +74,7 @@ function Facilities() {
             </div>
             <div className="facility-text bg-info">
               <h3 className="text-info mb-3">Positive Learning</h3>
-              <p className="mb-0">Eirmod sed ipsum dolor sit rebum magna erat lorem kasd vero ipsum sit</p>
+              <p className="mb-0">We create a positive learning environment that inspires curiosity and creativity.</p>
             </div>
           </div>
         </div>

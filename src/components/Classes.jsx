@@ -23,7 +23,7 @@ function Classes() {
     <div className="container">
       <div className="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style={{maxWidth: 600}}>
         <h1 className="mb-3">School Classes</h1>
-        <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
+        <p>At Creme de la Creme, we offer a range of engaging classes designed to spark curiosity and creativity in every child. Our tailored curriculum ensures a fun, hands-on learning experience that meets the needs of each age group.</p>
       </div>
       <div className="row g-4">
         <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">

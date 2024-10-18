@@ -23,15 +23,14 @@ function Contact() {
     <div className="container">
       <div className="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style={{maxWidth: 600}}>
         <h1 className="mb-3">Get In Touch</h1>
-        <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit
-          eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
+        <p>We’d love to hear from you! Whether you have questions or want to learn more about Creme de la Creme, feel free to reach out. </p>
       </div>
       <div className="row g-4 mb-5">
         <div className="col-md-6 col-lg-4 text-center wow fadeInUp" data-wow-delay="0.1s">
           <div className="bg-light rounded-circle d-inline-flex align-items-center justify-content-center mb-4" style={{width: 75, height: 75}}>
             <i className="fa fa-map-marker-alt fa-2x text-primary" />
           </div>
-          <h6>123 Street, New York, USA</h6>
+          <h6>East Legon,Accra</h6>
         </div>
         <div className="col-md-6 col-lg-4 text-center wow fadeInUp" data-wow-delay="0.3s">
           <div className="bg-light rounded-circle d-inline-flex align-items-center justify-content-center mb-4" style={{width: 75, height: 75}}>
@@ -43,7 +42,7 @@ function Contact() {
           <div className="bg-light rounded-circle d-inline-flex align-items-center justify-content-center mb-4" style={{width: 75, height: 75}}>
             <i className="fa fa-phone-alt fa-2x text-primary" />
           </div>
-          <h6>+012 345 6789</h6>
+          <h6>+233 222 2222</h6>
         </div>
       </div>
       <div className="bg-light rounded">

@@ -32,8 +32,7 @@ function Teams() {
     <div className="container">
       <div className="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style={{maxWidth: 600}}>
         <h1 className="mb-3">Popular Teachers</h1>
-        <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit
-          eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
+        <p>Meet the heart of Creme de la Creme—our dedicated and talented teachers! Known for their creativity, warmth, and expertise, our teachers make learning fun and engaging for every child. Their commitment to excellence and personal connection with students has earned them the love and respect of both children and parents alike.</p>
       </div>
       <div className="row g-4">
         
