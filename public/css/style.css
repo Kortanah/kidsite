@@ -1,8 +1,12 @@
 /********** Template CSS **********/
 :root {
-    --primary: #FE5D37;
+    --primary: #FE7555; 
     --light: #FFF5F3;
-    --dark: #103741;
+    --dark: #025d22;
+
+    --brandColorOne:#82C950;
+
+    --brandColorOneHover:#377f04;
 }
 
 .back-to-top {
@@ -37,6 +41,9 @@
 
 .btn.btn-primary {
     color: #FFFFFF;
+    background-color: var(--brandColorOne);
+    border: var(--brandColorOne)
+    
 }
 
 .btn-square {
@@ -98,16 +105,20 @@ h6,
 
 
 /*** Navbar ***/
+
+
 .navbar .navbar-nav .nav-link {
     padding: 30px 15px;
     color: var(--dark);
     font-weight: 500;
+    /* font-family: cursive; */
+    font-size: 1rem;
     outline: none;
 }
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: var(--primary);
+    color: var(--brandColorOne);
 }
 
 .navbar.sticky-top {
@@ -276,8 +287,8 @@ h6,
 .facility-item .facility-icon span {
     position: absolute;
     content: "";
-    width: 15px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     top: 0;
     left: 0;
     border-radius: 50%;
@@ -500,4 +511,35 @@ h6,
     margin-right: 0;
     padding-right: 0;
     border-right: none;
+}
+
+.bgcolor {
+    /* background-color: #009B36; */
+}
+
+.brand-id {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand-id img {
+    width: 80px;
+}
+
+.brand-id h1 {
+    margin-left: 0.5rem !important;
+    color: var(--dark) !important;
+    font-size: 1.5rem;
+    line-height: 23px;
+}
+
+.btn-cus1{
+    background-color: var(--brandColorOne);
+    border:none;
+}
+
+.btn-cus1:hover{
+    background-color: var(--brandColorOneHover);
 }

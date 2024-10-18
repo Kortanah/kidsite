@@ -7,11 +7,52 @@ function Home() {
      <Header/>
 
    <div>
+     {/* About Start */}
+  <div className="container-xxl py-5">
+    <div className="container">
+      <div className="row g-5 align-items-center">
+        <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+          <h1 className="mb-4">Learn More About Our Work And Our Cultural Activities</h1>
+          <p>We understand that early childhood is a critical time for development, and our play-based learning approach supports not just academic growth but also emotional and social well-being. This holistic approach ensures that each child feels valued, confident, and ready for the future.</p>
+          <p className="mb-4">Join us at Creme de la Creme, where we are passionate about guiding your child through the most important developmental years with care, creativity, and excellence.</p>
+          <div className="row g-4 align-items-center">
+            <div className="col-sm-6">
+              <a className="btn btn-primary rounded-pill py-3 px-5" href>Read More</a>
+            </div>
+            <div className="col-sm-6">
+              <div className="d-flex align-items-center">
+                <img className="rounded-circle flex-shrink-0" src="img/user.jpg" alt=" " style={{width: 45, height: 45}} />
+                <div className="ms-3">
+                  <h6 className="text-primary mb-1">Jhon Doe</h6>
+                  <small>CEO &amp; Founder</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-6 about-img wow fadeInUp" data-wow-delay="0.5s">
+          <div className="row">
+            <div className="col-12 text-center">
+              <img className="img-fluid w-75 rounded-circle bg-light p-3" src="img/about-1.jpg" alt=" " />
+            </div>
+            <div className="col-6 text-start" style={{marginTop: '-150px'}}>
+              <img className="img-fluid w-100 rounded-circle bg-light p-3" src="img/about-2.jpg" alt=" " />
+            </div>
+            <div className="col-6 text-end" style={{marginTop: '-150px'}}>
+              <img className="img-fluid w-100 rounded-circle bg-light p-3" src="img/about-3.jpg" alt=" " />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {/* About End */}
+
   {/* Facilities Start */}
   <div className="container-xxl py-5">
     <div className="container">
       <div className="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style={{maxWidth: 600}}>
-        <h1 className="mb-3">School Facilities</h1>
+        <h1 className="mb-3">Our School Facilities</h1>
         <p>At Creme de la Creme, we pride ourselves on our safe, welcoming, and well-equipped facilities. Our classrooms are designed to inspire creativity and collaboration, while our outdoor play areas provide ample space for exploration and physical activity. </p>
       </div>
       <div className="row g-4">
@@ -71,46 +112,7 @@ function Home() {
     </div>
   </div>
   {/* Facilities End */}
-  {/* About Start */}
-  <div className="container-xxl py-5">
-    <div className="container">
-      <div className="row g-5 align-items-center">
-        <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-          <h1 className="mb-4">Learn More About Our Work And Our Cultural Activities</h1>
-          <p>We understand that early childhood is a critical time for development, and our play-based learning approach supports not just academic growth but also emotional and social well-being. This holistic approach ensures that each child feels valued, confident, and ready for the future.</p>
-          <p className="mb-4">Join us at Creme de la Creme, where we are passionate about guiding your child through the most important developmental years with care, creativity, and excellence.</p>
-          <div className="row g-4 align-items-center">
-            <div className="col-sm-6">
-              <a className="btn btn-primary rounded-pill py-3 px-5" href>Read More</a>
-            </div>
-            <div className="col-sm-6">
-              <div className="d-flex align-items-center">
-                <img className="rounded-circle flex-shrink-0" src="img/user.jpg" alt=" " style={{width: 45, height: 45}} />
-                <div className="ms-3">
-                  <h6 className="text-primary mb-1">Jhon Doe</h6>
-                  <small>CEO &amp; Founder</small>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-6 about-img wow fadeInUp" data-wow-delay="0.5s">
-          <div className="row">
-            <div className="col-12 text-center">
-              <img className="img-fluid w-75 rounded-circle bg-light p-3" src="img/about-1.jpg" alt=" " />
-            </div>
-            <div className="col-6 text-start" style={{marginTop: '-150px'}}>
-              <img className="img-fluid w-100 rounded-circle bg-light p-3" src="img/about-2.jpg" alt=" " />
-            </div>
-            <div className="col-6 text-end" style={{marginTop: '-150px'}}>
-              <img className="img-fluid w-100 rounded-circle bg-light p-3" src="img/about-3.jpg" alt=" " />
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  {/* About End */}
+ 
   {/* Call To Action Start */}
   <div className="container-xxl py-5">
     <div className="container">
