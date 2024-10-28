@@ -15,12 +15,14 @@ import GalleryPage from './components/Gallery';
 import NotFound from './components/404';
 import Testimonials from './components/Testimonials';
 import Teams from './components/Teams';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <>
 
     <Router>
+      <ScrollToTop/>
     <Nav/>
       <Routes>
         <Route path='/' element={<Home/>} />
