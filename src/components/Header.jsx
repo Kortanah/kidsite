@@ -2,22 +2,22 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-// import "./Carousel.css"; // Add custom styling if needed
+import "../carousel.css"; // Custom styles
 
 const Header = () => {
   const settings = {
     dots: false,
-    infinite: false,
+    infinite: true,
     speed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: false,
-    autoplaySpeed: 5000,
+    autoplay: true,
+    autoplaySpeed: 6000,
     pauseOnHover: false,
     cssEase: "ease-in-out",
     responsive: [
       {
-        breakpoint: 1024, // For screen widths <= 1024px
+        breakpoint: 1024,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -26,18 +26,18 @@ const Header = () => {
         },
       },
       {
-        breakpoint: 768, // For screen widths <= 768px
+        breakpoint: 768,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
         },
       },
       {
-        breakpoint: 480, // For screen widths <= 480px
+        breakpoint: 480,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          dots: false, // Optionally remove dots for small screens
+          dots: false,
         },
       },
     ],
@@ -45,34 +45,42 @@ const Header = () => {
 
   return (
     <div className="container-fluid p-0 mb-5">
-      <Slider {...settings} className="header-carousel owl-carousel"> 
-        <div className="carousel-item owl-carousel-item ">
-          {/* Carousel Image */}
+      <Slider {...settings} className="header-carousel owl-carousel">
+        <div className="carousel-item owl-carousel-item">
           <img className="img-fluid w-100" src="img/carousel-1.jpg" alt="Slide 1" />
-          <div className="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style={{ background: "rgba(0, 0, 0, .2)" }}>
-            <div className="container">
-              <div className="row justify-content-start">
-                <div className="col-10 col-lg-8">
-                  <h1 className="display-2 text-white mb-4">
-                    The Best Kindergarten School For Your Child
-                  </h1>
-                  <p className="fs-5 fw-medium text-white mb-4 pb-2">
-                    Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.
-                  </p>
-                  <a href="/" className="btn btn-primary rounded-pill py-sm-3 px-sm-5 me-3">
-                    Learn More
-                  </a>
-                  <a href="/" className="btn btn-dark rounded-pill py-sm-3 px-sm-5">
-                    Our Classes
-                  </a>
-                </div>
-              </div>
+          <div
+            className="position-absolute bottom-0 w-100 d-flex align-items-center"
+            style={{ background: "rgba(1, 29, 8, 0.559)", height: "100%" }}
+          >
+            <div className="container text-start">
+            <h1 className="text-white mb-3 px-2 fade-in-up" >
+              The Best Kindergarten <br/> School For Your Child
+            </h1>
+              <p className="fs-5 fw-medium text-white mb-3 px-2 pb-2 fade-in-up">
+                Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no.
+              </p>
+              <a href="/" className="btn carousel-btn fade-in-up ">Learn More</a>
             </div>
           </div>
         </div>
-        {/* <div className="carousel-item owl-carousel-item position-relative">
-          
-        </div> */}
+
+        <div className="carousel-item owl-carousel-item">
+          <img className="img-fluid w-100" src="img/carousel-2.jpg" alt="Slide 2" />
+          <div
+            className="position-absolute bottom-0 w-100 d-flex align-items-center"
+            style={{ background: "rgba(1, 29, 8, 0.559)", height: "100%" }}
+          >
+            <div className="container text-start ">
+              <h1 className="text-white mb-3 px-2 fade-in-up" >
+                The Best Kindergarten <br/>School For Your Child
+              </h1>
+              <p className="fs-5 fw-medium text-white mb-3 pb-2 fade-in-up">
+                Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.
+              </p>
+              <a href="/" className="btn carousel-btn fade-in-up ">Explore Classes</a>
+            </div>
+          </div>
+        </div>
       </Slider>
     </div>
   );

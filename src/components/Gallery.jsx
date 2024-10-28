@@ -1,24 +1,22 @@
 import React, { useEffect, useState } from "react";
-import { db } from "./firebase";
-import { collection, getDocs } from "firebase/firestore";
+
+// Sample image data (replace with your actual image URLs and titles)
+const sampleImages = [
+  { id: 1, imageUrl: "img/classes-1.jpg", title: "Image 1" },
+  { id: 2, imageUrl: "img/classes-2.jpg", title: "Image 2" },
+  { id: 3, imageUrl: "img/classes-3.jpg", title: "Image 3" },
+  { id: 4, imageUrl: "img/classes-4.jpg", title: "Image 4" },
+  { id: 5, imageUrl: "img/classes-.jpg", title: "Image 5" },
+  { id: 6, imageUrl: "img/classes-1.jpg", title: "Image 6" },
+];
 
 const GalleryPage = () => {
   const [images, setImages] = useState([]);
 
-  // Fetch image URLs from Firestore
+  // Set sample images in state
   useEffect(() => {
-    const fetchImages = async () => {
-      try {
-        const imageCollectionRef = collection(db, "gallery"); // Firestore collection
-        const imageSnapshot = await getDocs(imageCollectionRef);
-        const imageList = imageSnapshot.docs.map((doc) => ({
-          id: doc.id,
-          ...doc.data(),
-        }));
-        setImages(imageList); // Set the fetched images from Firestore as objects
-      } catch (error) {
-        console.error("Error fetching images from Firestore:", error);
-      }
+    const fetchImages = () => {
+      setImages(sampleImages); // Set the static array as the images
     };
 
     fetchImages();

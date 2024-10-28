@@ -42,7 +42,7 @@ function Contact() {
           <div className="bg-light rounded-circle d-inline-flex align-items-center justify-content-center mb-4" style={{width: 75, height: 75}}>
             <i className="fa fa-phone-alt fa-2x text-primary" />
           </div>
-          <h6>+233 222 2222</h6>
+          <h6>0303959567</h6>
         </div>
       </div>
       <div className="bg-light rounded">
@@ -85,7 +85,8 @@ function Contact() {
           </div>
           <div className="col-lg-6 wow fadeIn" data-wow-delay="0.5s" style={{minHeight: 400}}>
             <div className="position-relative h-100">
-              <iframe className="position-relative rounded w-100 h-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd" frameBorder={0} style={{minHeight: 400, border: 0}} allowFullScreen aria-hidden="false" tabIndex={0} />
+              <iframe className="position-relative rounded w-100 h-100" 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.0941543103886!2d-0.1036090265227381!3d5.69953563219278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf83002232c573%3A0x8f95fd3cae04a7c7!2sCr%C3%A9me%20De%20La%20Cr%C3%A9me%20Wesleyan%20School!5e0!3m2!1sen!2sgh!4v1729968457935!5m2!1sen!2sgh" frameBorder={0} style={{minHeight: 400, border: 0}} allowFullScreen aria-hidden="false" tabIndex={0} />
             </div>
           </div>
         </div>
@@ -93,6 +94,7 @@ function Contact() {
     </div>
   </div>
   {/* Contact End */}
+  
 </div>
 
     </>

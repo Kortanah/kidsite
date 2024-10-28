@@ -1,0 +1,78 @@
+/* Carousel.css */
+
+/* Override slick arrow styles */
+.slick-prev, .slick-next {
+    z-index: 10; /* Ensure arrows are above the content */
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.5); /* Background for better visibility */
+    border-radius: 50%;
+  }
+  
+  .slick-prev {
+    left: 10px; /* Adjust position for left arrow */
+  }
+  
+  .slick-next {
+    right: 10px; /* Adjust position for right arrow */
+  }
+  
+  /* Arrow icons styling */
+  .slick-prev:before, .slick-next:before {
+    color: white;
+    font-size: 30px;
+  }
+  
+  /* Carousel.css */
+
+/* Keyframes for fade-in and slide-up animation */
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(40px); /* Starts from below */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0); /* Moves to original position */
+    }
+  }
+  
+  /* Apply the animation only when the slide is active */
+  .slick-active .fade-in-up {
+    animation: fadeInUp 1.2s ease-out forwards; /* 1.2s duration for smoother effect */
+    opacity: 1;
+  }
+  
+  /* Ensure the previous slide's text is hidden */
+  .slick-slide:not(.slick-active) .fade-in-up {
+    opacity: 0;
+    transform: translateY(40px); /* Ensure it starts from below */
+  }
+  
+  /* Button styling */
+  .carousel-btn {
+    padding: 0.8rem 2rem;
+    border-radius: 50px;
+    font-size: 1rem;
+    background-color: orange;
+    color: #fff;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  .carousel-btn:hover {
+    background-color: darkorange;
+    color:white;
+    transform: scale(1.05);
+  }
+  
+  /* For small devices, make button full-width */
+  @media (max-width: 768px) {
+    .carousel-btn {
+      width: 50%;
+      padding: 1rem 0;
+    }
+  }
+  
+  

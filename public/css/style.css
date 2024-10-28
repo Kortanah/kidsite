@@ -4,9 +4,10 @@
     --light: #FFF5F3;
     --dark: #025d22;
 
-    --brandColorOne:#82C950;
+    --brandColorOne:#6DBB00;
 
     --brandColorOneHover:#377f04;
+
 }
 
 .back-to-top {
@@ -42,6 +43,11 @@
 .btn.btn-primary {
     color: #FFFFFF;
     background-color: var(--brandColorOne);
+    border: var(--brandColorOne)
+    
+}
+.btn-primary:hover {
+    color: #FFFFFF;
     border: var(--brandColorOne)
     
 }
@@ -88,7 +94,8 @@ h4,
 .display-4,
 .display-5,
 .display-6 {
-    font-family: 'Lobster Two', cursive;
+    font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+    /* font-family: 'Lobster Two', cursive; */
     font-weight: 700;
 }
 
@@ -198,7 +205,8 @@ h6,
 @media (max-width: 768px) {
     .header-carousel .owl-carousel-item {
         position: relative;
-        min-height: 500px;
+        min-height: 400px;
+      
     }
     
     .header-carousel .owl-carousel-item img {
@@ -261,6 +269,7 @@ h6,
 
 
 /*** Facility ***/
+
 .facility-item .facility-icon {
     position: relative;
     margin: 0 auto;
@@ -453,8 +462,8 @@ h6,
 }
 
 .footer .btn.btn-social:hover {
-    border-color: var(--primary);
-    background: var(--primary);
+    border-color: #82C950;
+    background-color:#82C950;
 }
 
 .footer .btn.btn-link {
@@ -499,12 +508,14 @@ h6,
 .footer .footer-menu a {
     margin-right: 15px;
     padding-right: 15px;
+    color: white !important;
+    cursor: pointer;
     border-right: 1px solid rgba(255, 255, 255, .1);
 }
 
 .footer .copyright a:hover,
 .footer .footer-menu a:hover {
-    color: var(--primary) !important;
+    color:#82C950 !important;
 }
 
 .footer .footer-menu a:last-child {
@@ -515,6 +526,7 @@ h6,
 
 .bgcolor {
     /* background-color: #009B36; */
+    
 }
 
 .brand-id {
@@ -525,7 +537,7 @@ h6,
 }
 
 .brand-id img {
-    width: 80px;
+    width: 15rem;
 }
 
 .brand-id h1 {
@@ -536,10 +548,162 @@ h6,
 }
 
 .btn-cus1{
-    background-color: var(--brandColorOne);
+    background-color:#ee8e19 !important;
     border:none;
+    padding: 10px 20px !important;
 }
 
 .btn-cus1:hover{
-    background-color: var(--brandColorOneHover);
+    background-color: #ee8e19dd !important;
 }
+
+.nav-custom a{
+    font-size: 0.85rem !important;
+    font-weight: 700 !important;
+}
+
+.bg-footer{
+    background-color: #024b1c;
+}
+
+.bg-cus-light{
+    background-color: #f7fff1;
+}
+.bg-cus-dark{
+    background-color: #024b1c;
+}
+.color-sec{
+    color: #ee8e19dd !important;
+}
+
+/* card */
+.card-container {
+    perspective: 1000px; /* 3D perspective for the flip effect */
+    margin: 0 auto; /* Center the card */
+}
+
+.card {
+    position: relative; /* Relative positioning for the front and back */
+    width: 100%; /* Full width */
+    height: 350px; /* Set height for the card */
+    transition: transform 0.6s; /* Smooth flip transition */
+    transform-style: preserve-3d; /* Preserve 3D effect */
+}
+
+.card:hover {
+    transform: rotateY(180deg); /* Flip the card on hover */
+}
+
+.card-front,
+.card-back {
+    position: absolute; /* Positioning for both sides */
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    backface-visibility: hidden; /* Hide the back face */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Soft shadow */
+}
+
+.card-front {
+    display: flex; /* Flexbox for centering */
+    flex-direction: column; /* Arrange items vertically */
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    background: #28a745; /* Green background for the front */
+    color: white; /* White text for contrast */
+    padding: 20px; /* Add padding to the front card */
+}
+
+.card-icon {
+    margin-bottom: 15px; /* Space between icon and text */
+    width: 100px; /* Width of the icon container */
+    height: 100px; /* Height of the icon container */
+    border-radius: 50%; /* Circular shape */
+    background: rgba(255, 255, 255, 0.2); /* Light overlay for the icon */
+    display: flex; /* Flexbox for centering */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    z-index: 2; /* Position above the before pseudo-element */
+}
+
+.card-icon i {
+    color: #fff; /* White color for the icon */
+    font-size: 3rem; /* Size of the icon */
+}
+
+.card-text {
+    text-align: center; /* Center align text */
+}
+
+.card-text h3 {
+    margin: 0; /* Reset margin */
+    color: #fff; /* White color for the heading */
+}
+
+.card-text p {
+    color: #fff; /* White color for the paragraph text */
+}
+
+.card-back {
+    background-size: cover; /* Cover the entire area */
+    transform: rotateY(180deg); /* Rotate the back side */
+    border-radius: 15px; /* Match border radius with the front */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Shadow for the back */
+}
+
+
+/* nav top */
+
+.header-top-area {
+    background-color:#024b1c;
+    color: #ffffff;
+    padding: 10px 0;
+    font-size: 14px;
+  }
+  
+  .header-top-area .header-links ul,
+  .header-top-area .header-social ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-top-area .header-links ul li {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 20px;
+    color: #ffffff;
+  }
+  
+  .header-top-area .header-links ul li i {
+    margin-right: 8px;
+    color:#82C950;
+    font-size: 14px;
+  }
+  
+  .header-top-area .header-links ul li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .header-top-area .header-social ul li {
+    margin-left: 15px;
+  }
+  
+  .header-top-area .header-social ul li a {
+    color: #ffffff;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  .header-top-area .header-social ul li a:hover {
+    color: #82C950;
+  }
+  
+  .header-top-area .header-links ul li a:hover,
+  .header-top-area .header-links ul li i:hover {
+    color: #82C950;
+  }
+  
